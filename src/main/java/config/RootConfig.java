@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 /*过滤器配置*/
 @Configuration
-@ComponentScan(basePackages={"spittr"},
+@ComponentScan(basePackages={"config"},
     excludeFilters={
         @Filter(type=FilterType.ANNOTATION, value= EnableWebMvc.class)
     })
